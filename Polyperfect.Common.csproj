@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{0C637E3A-D057-30C2-087C-D10A3C37365C}</ProjectGuid>
+    <ProjectGuid>{523F22E1-4848-0D7A-2091-47165F6B978D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Polyperfect.Common</AssemblyName>
@@ -749,11 +749,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{6274BA6C-DBC2-7CAF-ADAA-A1068470D215}</Project>
+      <Project>{72EC7FC5-F644-AE1B-4CD3-B57FCFCE0A0C}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{B1B6E111-C37B-867F-C9C0-0DDF0AAD493B}</Project>
+      <Project>{67E78A09-E7BC-4378-1C70-86555A33153E}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
   </ItemGroup>

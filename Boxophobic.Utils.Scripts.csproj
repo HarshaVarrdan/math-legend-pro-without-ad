@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{E0B0176E-3B83-777C-0B2D-61AAA33C0C11}</ProjectGuid>
+    <ProjectGuid>{C00D5137-8EAD-3407-B026-A04B79E6F096}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Boxophobic.Utils.Scripts</AssemblyName>
@@ -764,11 +764,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{6274BA6C-DBC2-7CAF-ADAA-A1068470D215}</Project>
+      <Project>{72EC7FC5-F644-AE1B-4CD3-B57FCFCE0A0C}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{B1B6E111-C37B-867F-C9C0-0DDF0AAD493B}</Project>
+      <Project>{67E78A09-E7BC-4378-1C70-86555A33153E}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
   </ItemGroup>

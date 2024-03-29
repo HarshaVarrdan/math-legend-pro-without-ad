@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{B9DE9DC2-A39E-9937-F97B-E159FC4EA249}</ProjectGuid>
+    <ProjectGuid>{7C4EB6F2-95F4-2E20-4C2A-878F934EB987}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.Formats.Fbx.Editor</AssemblyName>
@@ -791,43 +791,43 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.Timeline.csproj">
-      <Project>{EE8B596D-BA44-5E5D-0843-61605C58F8F1}</Project>
+      <Project>{6ECE3410-B392-D3F8-4877-1486A64153E6}</Project>
       <Name>Unity.Timeline</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Timeline.Editor.csproj">
-      <Project>{EEC8CC1A-E423-FBDC-4F1B-54940352C62C}</Project>
+      <Project>{DD07B729-C718-009C-B284-84A0940757A4}</Project>
       <Name>Unity.Timeline.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Formats.Fbx.Runtime.csproj">
-      <Project>{4A034B59-A823-A5AC-34B3-324A080389D5}</Project>
+      <Project>{31C9AE4C-12AF-0EE7-27F9-D5B3AA284FCF}</Project>
       <Name>Unity.Formats.Fbx.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="Autodesk.Fbx.csproj">
-      <Project>{43CAFA75-80C1-4810-33E9-DF33CAD51372}</Project>
+      <Project>{6D43D664-63DE-775F-2646-9C52502F4F1B}</Project>
       <Name>Autodesk.Fbx</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Recorder.Editor.csproj">
-      <Project>{A9B11676-3BCE-8179-A529-3BBD388FE385}</Project>
+      <Project>{0C452FB1-F2B8-34D3-204F-E6242DA68EB0}</Project>
       <Name>Unity.Recorder.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Recorder.csproj">
-      <Project>{9C005AC4-A25B-C1F7-BDE1-0FA651EC38B6}</Project>
+      <Project>{BEBF186E-71AD-0598-0159-D9FF8720F778}</Project>
       <Name>Unity.Recorder</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{6274BA6C-DBC2-7CAF-ADAA-A1068470D215}</Project>
+      <Project>{72EC7FC5-F644-AE1B-4CD3-B57FCFCE0A0C}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{B1B6E111-C37B-867F-C9C0-0DDF0AAD493B}</Project>
+      <Project>{67E78A09-E7BC-4378-1C70-86555A33153E}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{B1F8A70D-3008-193B-97C9-DF68C4F8F336}</Project>
+      <Project>{7CE18ABE-6C71-94A2-202C-C6EF065AC216}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{60CED2F8-5F9C-5596-CB2D-315D7AE22C83}</Project>
+      <Project>{DA2C5301-C100-9A09-DAB2-6317266E63F5}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>

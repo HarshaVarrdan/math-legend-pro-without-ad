@@ -12,6 +12,9 @@ public class TutorialPlayer : MonoBehaviour
     [SerializeField]
     GameObject button;
 
+    [SerializeField]
+    GameObject[] CanvasGB;
+
     int currenttask;
     VideoPlayer player;
 
@@ -27,6 +30,10 @@ public class TutorialPlayer : MonoBehaviour
         player.clip = videoClips[currenttask];
         player.Play();
         player.targetCameraAlpha = 1F;
+        foreach (GameObject go in CanvasGB)
+        {
+            go.SetActive(false);
+        }
     }
 
     public void SetCurrentTask(int value)
@@ -46,5 +53,10 @@ public class TutorialPlayer : MonoBehaviour
     void endreached(UnityEngine.Video.VideoPlayer vp)
     {
         vp.targetCameraAlpha = 0F;
+        foreach(GameObject go in CanvasGB)
+        {
+            go.SetActive(true);
+        }
+        
     }
 }

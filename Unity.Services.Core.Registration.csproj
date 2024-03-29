@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{2A1A2D53-2CF4-4E63-FBE3-DD84F52C271D}</ProjectGuid>
+    <ProjectGuid>{FA456438-7B15-EDB9-F6B1-0E8AE1A129C0}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.Services.Core.Registration</AssemblyName>
@@ -749,47 +749,47 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.Services.Core.Internal.csproj">
-      <Project>{AE542185-CD73-DE8D-AE53-2249216E5A19}</Project>
+      <Project>{F266F73A-F13C-A7B8-300A-3A692C9A6E85}</Project>
       <Name>Unity.Services.Core.Internal</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Device.csproj">
-      <Project>{BB28B4E6-2380-4D57-4407-B0E89E6F9D59}</Project>
+      <Project>{5C38AD77-EEB1-F32D-37FE-9332E6A7E6A6}</Project>
       <Name>Unity.Services.Core.Device</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Environments.csproj">
-      <Project>{9CD1066D-6E89-083B-849E-A2E59FBF3094}</Project>
+      <Project>{5325735D-3D9D-81FB-BA7F-30C8BED57403}</Project>
       <Name>Unity.Services.Core.Environments</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Environments.Internal.csproj">
-      <Project>{242E9C69-35EE-5C5A-1D82-5E8255D600A1}</Project>
+      <Project>{4578BC13-D257-F403-0BC2-8A875DB333CD}</Project>
       <Name>Unity.Services.Core.Environments.Internal</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Configuration.csproj">
-      <Project>{3BC3AAD3-48AD-940E-F7E1-1DBBC7FB3663}</Project>
+      <Project>{4F9838A8-54B3-7217-A95B-EBDAEF26990F}</Project>
       <Name>Unity.Services.Core.Configuration</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.csproj">
-      <Project>{99B0AF88-93C3-92B7-127B-176E75F7FD4F}</Project>
+      <Project>{7126CBF2-FC0D-7A95-5C63-01255D35EAAD}</Project>
       <Name>Unity.Services.Core</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Telemetry.csproj">
-      <Project>{34903D55-598A-CF1B-F921-C95409F325CF}</Project>
+      <Project>{EA63FB70-6727-897E-5CB7-96E3E4F7AFBF}</Project>
       <Name>Unity.Services.Core.Telemetry</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Scheduler.csproj">
-      <Project>{15343527-9554-EC90-AA64-B3B48E1F6AC8}</Project>
+      <Project>{1B131D90-37DE-8D57-E637-3D83444980E7}</Project>
       <Name>Unity.Services.Core.Scheduler</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Threading.csproj">
-      <Project>{A3CD9976-0B41-6CA3-CBBA-6951B0696E01}</Project>
+      <Project>{B445BB29-7F4C-8D14-1677-0AC87987DEE8}</Project>
       <Name>Unity.Services.Core.Threading</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{6274BA6C-DBC2-7CAF-ADAA-A1068470D215}</Project>
+      <Project>{72EC7FC5-F644-AE1B-4CD3-B57FCFCE0A0C}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{B1B6E111-C37B-867F-C9C0-0DDF0AAD493B}</Project>
+      <Project>{67E78A09-E7BC-4378-1C70-86555A33153E}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
   </ItemGroup>
