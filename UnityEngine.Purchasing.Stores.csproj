@@ -191,8 +191,8 @@
     <Compile Include="Library\PackageCache\com.unity.purchasing@4.9.4\Runtime\Stores\Android\GooglePlay\AAR\Listeners\BillingClientStateListener.cs" />
     <Compile Include="Library\PackageCache\com.unity.purchasing@4.9.4\Runtime\Stores\Android\GooglePlay\AAR\GoogleCachedQuerySkuDetailsService.cs" />
     <Compile Include="Library\PackageCache\com.unity.purchasing@4.9.4\Runtime\Stores\AppleAppStore\AppleProductMetadata.cs" />
-    <Compile Include="Library\PackageCache\com.unity.purchasing@4.9.4\Runtime\Stores\Android\GooglePlay\Models\GoogleBillingResponseCode.cs" />
     <Compile Include="Library\PackageCache\com.unity.purchasing@4.9.4\Runtime\Stores\AppStore.cs" />
+    <Compile Include="Library\PackageCache\com.unity.purchasing@4.9.4\Runtime\Stores\Android\GooglePlay\Models\GoogleBillingResponseCode.cs" />
     <Compile Include="Library\PackageCache\com.unity.purchasing@4.9.4\Runtime\Stores\Android\UDP\UDPReflectionConsts.cs" />
     <Compile Include="Library\PackageCache\com.unity.purchasing@4.9.4\Runtime\Stores\WindowsStore\WinRTStore.cs" />
     <Compile Include="Library\PackageCache\com.unity.purchasing@4.9.4\Runtime\Stores\Android\GooglePlay\GooglePlayStore.cs" />

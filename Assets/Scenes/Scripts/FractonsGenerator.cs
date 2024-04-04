@@ -54,12 +54,14 @@ public class FractonsGenerator : MonoBehaviour
 
 
         GameObject Temp1 = Instantiate(_Number, new Vector3(0, 0, 0), new Quaternion(0, 0, 0, 1));
+        Temp1.GetComponent<Flexalon.FlexalonInteractable>().Draggable = false;
         Temp1.GetComponent<Numbers>().SetNumber(_number1);
         Temp1.transform.parent = _Number1Pos.transform;
         Temp1.transform.position= _Number1Pos.transform.position;
         Temp1.transform.rotation = _Number1Pos.transform.rotation;
 
         GameObject Temp2 = Instantiate(_Number, new Vector3(0, 0, 0), new Quaternion(0, 0, 0, 1));
+        Temp2.GetComponent<Flexalon.FlexalonInteractable>().Draggable = false;
         Temp2.GetComponent<Numbers>().SetNumber(_number2);
         Temp2.transform.parent = _Number2Pos.transform;
         Temp2.transform.position = _Number2Pos.transform.position;

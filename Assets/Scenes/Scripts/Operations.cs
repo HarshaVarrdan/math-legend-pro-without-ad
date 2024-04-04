@@ -119,7 +119,7 @@ public class Operations : MonoBehaviour
                     Number1 = Random.Range(0, 10);
                     Number2 = Random.Range(10, 99);
                     int temp = Number2 * Number1;
-
+                    Debug.LogError(Number1 + " " + Number2 + " " + temp);
                     temp1 = Instantiate(_numbers, new Vector3(0, 0, 0), new Quaternion(0, 0, 0, 1)  );
                     temp1.GetComponent<Numbers>().SetNumber(temp);
                     temp1.transform.parent = QuestionLayout.transform;

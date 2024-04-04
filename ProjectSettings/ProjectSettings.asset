@@ -254,8 +254,8 @@ PlayerSettings:
   AndroidTargetDevices: 0
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: '{inproject}: KeyStore/user.keystore'
-  AndroidKeyaliasName: dnnovate
+  AndroidKeystoreName: '{inproject}: user.keystore'
+  AndroidKeyaliasName: mathastic
   AndroidEnableArmv9SecurityFeatures: 0
   AndroidBuildApkPerCpuArchitecture: 0
   AndroidTVCompatibility: 0

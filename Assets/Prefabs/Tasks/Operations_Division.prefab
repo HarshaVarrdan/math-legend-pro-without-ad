@@ -690,7 +690,7 @@ MonoBehaviour:
   _horizontalInnerAlign: 1
   _verticalInnerAlign: 1
   _depthInnerAlign: 1
-  _gap: 0
+  _gap: 0.8
   _wrapGap: 0
 --- !u!114 &7099862985474222467
 MonoBehaviour:
@@ -773,7 +773,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 928ebc24371a97e46b836c8774e2556c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _canRemoveObjects: 0
+  _canRemoveObjects: 1
   _canAddObjects: 1
   _minObjects: 0
   _maxObjects: 0
@@ -1106,7 +1106,7 @@ MonoBehaviour:
   - {fileID: 6225215227091483392, guid: 4b4762e9a773d6144bbb00f061a5b9b8, type: 3}
   _showAnswerOpt: {fileID: 3530761741593702219}
   _respawnPoint: {fileID: 7003695740037496161}
-  Operator: 4
+  Operator: 3
   AnswerNumber: 5
   ExecuteOnComplete:
     m_PersistentCalls:
@@ -1478,7 +1478,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8468494360373734234}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: -0.14, y: 1.02, z: 8.66}
+  m_LocalPosition: {x: -0.14, y: 2.07, z: 8.66}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1535,10 +1535,10 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0, y: 0, z: 0}
   ComponentScale: {x: 1, y: 1, z: 1}
-  TargetPosition: {x: -0.14, y: 1.02, z: 8.66}
+  TargetPosition: {x: -0.14, y: 2.07, z: 8.66}
   TargetRotation: {x: 0, y: 1, z: 0, w: 0}
   TargetScale: {x: 1, y: 1, z: 1}
-  TransformPosition: {x: -0.14, y: 1.02, z: 8.66}
+  TransformPosition: {x: -0.14, y: 2.07, z: 8.66}
   TransformRotation: {x: 0, y: 1, z: 0, w: 0}
   TransformScale: {x: 1, y: 1, z: 1}
 --- !u!114 &4787188783995334464

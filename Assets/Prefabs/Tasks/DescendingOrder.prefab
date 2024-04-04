@@ -92,6 +92,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3449623190011163643, guid: 0d434d215d8be8d4380e2e6a250e20d4, type: 3}
+      propertyPath: _canRemoveObjects
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3710490011718386067, guid: 0d434d215d8be8d4380e2e6a250e20d4, type: 3}
       propertyPath: ExecuteOnComplete.m_PersistentCalls.m_Calls.Array.size
       value: 8

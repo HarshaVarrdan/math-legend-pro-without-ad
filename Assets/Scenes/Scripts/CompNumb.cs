@@ -43,10 +43,12 @@ public class CompNumb : MonoBehaviour
         RightNumber = Random.Range(0, 99);
 
         GameObject temp1 = Instantiate(NumbersPrefab);
+        temp1.GetComponent<Flexalon.FlexalonInteractable>().Draggable = false;
         temp1.GetComponent<Numbers>().SetNumber(LeftNumber);
         temp1.transform.parent = LeftLayout.transform;
 
         GameObject temp2 = Instantiate(NumbersPrefab);
+        temp2.GetComponent<Flexalon.FlexalonInteractable>().Draggable = false;
         temp2.GetComponent<Numbers>().SetNumber(RightNumber);
         temp2.transform.parent = RightLayout.transform;
 

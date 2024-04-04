@@ -466,7 +466,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 928ebc24371a97e46b836c8774e2556c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _canRemoveObjects: 1
+  _canRemoveObjects: 0
   _canAddObjects: 1
   _minObjects: 0
   _maxObjects: 0

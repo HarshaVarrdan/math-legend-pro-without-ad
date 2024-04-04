@@ -43,10 +43,12 @@ public class Numbers : MonoBehaviour
         }
         if(Temp >= 1000) 
         {
+            Debug.LogError(Temp / 1000 + " " + (Temp / 10) %100  + " " + (Temp / 100)%10 + " " + Temp % 1000 + " ");
+
             GameObject temp1 = Instantiate(_Numbers[Temp / 1000], this.transform.position + (new Vector3(1.00f, 0, -0.3f)), new Quaternion(0, 0, 0, 1));
-            GameObject temp2 = Instantiate(_Numbers[(Temp / 10) % 10], this.transform.position + (new Vector3(0.35f, 0, -0.3f)), new Quaternion(0, 0, 0, 1));
-            GameObject temp3 = Instantiate(_Numbers[(Temp % 100) % 10], this.transform.position + (new Vector3(-0.35f, 0, -0.3f)), new Quaternion(0, 0, 0, 1));
-            GameObject temp4 = Instantiate(_Numbers[(Temp % 1000) % 10], this.transform.position + (new Vector3(-1.00f, 0, -0.3f)), new Quaternion(0, 0, 0, 1));
+            GameObject temp2 = Instantiate(_Numbers[(Temp / 10) % 100], this.transform.position + (new Vector3(0.35f, 0, -0.3f)), new Quaternion(0, 0, 0, 1));
+            GameObject temp3 = Instantiate(_Numbers[(Temp / 100) % 10], this.transform.position + (new Vector3(-0.35f, 0, -0.3f)), new Quaternion(0, 0, 0, 1));
+            GameObject temp4 = Instantiate(_Numbers[(Temp % 1000)], this.transform.position + (new Vector3(-1.00f, 0, -0.3f)), new Quaternion(0, 0, 0, 1));
             temp1.transform.localScale = new Vector3(0.35f, 0.35f, 0.35f);
             temp2.transform.localScale = new Vector3(0.35f, 0.35f, 0.35f);
             temp3.transform.localScale = new Vector3(0.35f, 0.35f, 0.35f);
@@ -55,6 +57,7 @@ public class Numbers : MonoBehaviour
             temp2.transform.parent = this.transform;
             temp3.transform.parent = this.transform;
             temp4.transform.parent = this.transform;
+
         }
     }
 
